@@ -1,0 +1,117 @@
+{
+     "name": "HealthONE (PWA)",
+     "short_name": "HealthONE",
+     "id": "./",
+     "start_url": "./",
+     "display": "standalone",
+     "background_color": "#87CEEB",
+     "theme_color": "#87CEEB",
+     "orientation": "portrait-primary",
+     "description": "A user-friendly health care app.",
+     "icons": [
+          {
+               "src": "./img/logo/logo-original-64x64.webp",
+               "type": "image/webp",
+               "sizes": "64x64",
+               "purpose": "maskable"
+          },
+          {
+               "src": "./img/logo/logo-original-144x144.png",
+               "type": "image/png",
+               "sizes": "144x144",
+               "purpose": "any"
+          },
+          {
+               "src": "./img/logo/logo-original-192x192.png",
+               "type": "image/png",
+               "sizes": "192x192",
+               "purpose": "any"
+          },
+          {
+               "src": "./img/logo/logo-original-512x512.png",
+               "type": "image/png",
+               "sizes": "512x512",
+               "purpose": "any"
+          }
+     ],
+     "shortcuts": [
+          {
+               "name": "HealthONE: First Ais",
+               "short_name": "H1: First Aid",
+               "url": "./pages/first_aid.html",
+               "icons": [
+                    {
+                         "src": "./img/logo/logo-original-144x144.png",
+                         "type": "image/png",
+                         "sizes": "144x144",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-192x192.png",
+                         "type": "image/png",
+                         "sizes": "192x192",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-512x512.png",
+                         "type": "image/png",
+                         "sizes": "512x512",
+                         "purpose": "any"
+                    }
+               ]
+
+          },
+          {
+               "name": "HealthONE: Doctor",
+               "short_name": "H1: Doctor",
+               "url": "./pages/doctor.html",
+               "icons": [
+                    {
+                         "src": "./img/logo/logo-original-144x144.png",
+                         "type": "image/png",
+                         "sizes": "144x144",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-192x192.png",
+                         "type": "image/png",
+                         "sizes": "192x192",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-512x512.png",
+                         "type": "image/png",
+                         "sizes": "512x512",
+                         "purpose": "any"
+                    }
+               ]
+
+          },
+          {
+               "name": "HealthONE: Medicine",
+               "short_name": "H1: Medicine",
+               "url": "./pages/medicine.html",
+               "icons": [
+                    {
+                         "src": "./img/logo/logo-original-144x144.png",
+                         "type": "image/png",
+                         "sizes": "144x144",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-192x192.png",
+                         "type": "image/png",
+                         "sizes": "192x192",
+                         "purpose": "any"
+                    },
+                    {
+                         "src": "./img/logo/logo-original-512x512.png",
+                         "type": "image/png",
+                         "sizes": "512x512",
+                         "purpose": "any"
+                    }
+               ]
+
+          }
+     ]
+}

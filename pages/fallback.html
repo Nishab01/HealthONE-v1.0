@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>No Connection</title>
+     <link rel="manifest" href="./manifest.json">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+     <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+     <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+     body{
+          background-image: linear-gradient(90deg, steelblue, skyblue, skyblue, skyblue, skyblue, skyblue, steelblue);
+          background-size: cover;
+     }
+     html{
+          scroll-behavior: smooth;
+     }
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     #nav{
+          background-color: rgba(0, 191, 255, 0.808);
+          padding: 8px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+     }
+     #nav a{
+          align-items: center;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+     #nav .right-nav{
+          flex: auto;
+          text-align: right;
+     }
+
+     #fall{
+          padding-top: 100px;
+          padding-bottom: 100px;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: auto;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+     }
+     #fall button{
+          background-color: rgb(0, 0, 0);
+          color: white;
+          height: max-content;
+          width: max-content;
+          font-size: medium;
+          padding: 12px;
+          border-radius: 50px;
+          border: none;
+          box-shadow: inset 0 0 0 0 #06f906;
+          transition: ease-out 300ms;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+     #fall button:hover{
+          background-color: rgb(255, 255, 255);
+          color: black;
+          font-size: large;
+          height: max-content;
+          width: max-content;
+          padding: 12px;
+          border-radius: 50px;
+          border: none;
+     }
+
+
+</style>
+<body>
+     <!--fallback-->
+     <section id="fall">
+          <h1>No Connection!</h1>
+          <h2>You need internet connection to view this page.</h2>
+          <br>
+          <button onclick="window.location='../index.html';">Return to <b>Home Page</b></button>
+     </section>
+     <!---->
+</body>
+</html>

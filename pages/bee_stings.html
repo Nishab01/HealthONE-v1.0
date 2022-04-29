@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Stings - What To Do</title>
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+    <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bowlby+One&family=Bungee+Shade&family=Caveat&family=Changa:wght@200&family=Comfortaa:wght@300&family=Courgette&family=Dancing+Script&family=Fredoka+One&family=Fredoka:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Kaushan+Script&family=Lexend+Peta:wght@100&family=Lobster&family=Lobster+Two&family=Montserrat:wght@100&family=Nova+Mono&family=Permanent+Marker&family=Public+Sans:wght@100&family=Righteous&family=Roboto:wght@100&family=Rubik:wght@300&family=Russo+One&family=Saira+Condensed:wght@100&family=Satisfy&family=Smooch+Sans:wght@100&display=swap');
+    body{
+        background-color: cornflowerblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    html{
+        scroll-behavior: smooth;
+
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #nav{
+        position: fixed;
+        background-color: skyblue;
+        padding: 8px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #nav a{
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    #nav .left-nav{
+        flex: auto;
+        text-align: left;
+    }
+    #nav .right-nav{
+        flex: auto;
+        text-align: right;
+    }
+
+    #example{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #example .head{
+        padding: 2%;
+        background-color: rgba(0, 0, 0, 0.836);
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #example .to-do{
+        padding: 2%;
+        background-color: rgba(255, 255, 255, 0.836);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <!--nav-bar-->
+    <section id="nav">
+        <div class="left-nav">
+            <a href="../index.html"><img src="../img/nav-home.webp" alt="home" height="20px" width="20px"></a>
+        </div>
+        <div class="right-nav">
+            <a href="../pages/first_aid.html">◄ Back to First Aid</a>
+        </div>
+    </section>
+    <!---->
+
+    <!--bleeding-->
+    <section id="example">
+        <div class="head">
+            <h4>What To Do</h4>
+            <h1>Bee Stings</h1>
+        </div>
+        <br>
+        <div class="to-do">
+            <p>Take the person to hospital if any signs of allergy appear. If the person who was stung has a known allergy to bee stings, use an <i>EpiPen</i> to prevent anaphylaxis.</p><br>
+            <p>In someone without a known bee allergy, watch for signs of an allergy while performing first aid:</p> 
+            <div style="padding-left: 1%;">
+                <p>• Get the stinger out any way you can to keep it from injecting more venom. The method doesn't matter. What's most important is that this is done quickly.</p>
+                <p>• Wash the area with soap and water.</p>
+                <p>• Use a cold pack to reduce swelling at the site, but don't apply ice directly to the skin.</p>
+                <p>• Use an allergy medication, or <i>antihistamine</i>, like Benadryl to reduce swelling and itching.</p>
+                <p>• Use <i>Tylenol (acetaminophen)</i> or <i>Advil (ibuprofen)</i> for pain.</p>
+           </div>
+        </div>
+    </section>
+    <!---->
+
+    <section style="background-color: black; color: royalblue; padding: 8px; text-align: center;">
+          <h3>More features are coming soon.</h3>
+    </section>
+
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+[
+     {
+          "id": "001",
+          "name": "Dr. A. K. M. Musa Bhuiyan",
+          "degree": "MBBS, BCS (Health), MS (Urology)",
+          "speciality": "Urology Specialist",
+          "time": "Sat-Wed: 6pm-9pm",
+          "phone": "+880187331013",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1549375728-Dr.%20Musa.jpeg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/18/Dr.-A.-K.-M.-Musa-Bhuiyan-%28Bablu%29"
+     },
+     {
+          "id": "002",
+          "name": "Prof. Dr. Jesmine Banu",
+          "degree": "MBBS, M.S. (Gynae & Obstetrics)",
+          "speciality": "Gynae & Obstetrics Specialist",
+          "time": "Thu-Fri: 7pm-10pm",
+          "phone": "++80187331016",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1537640094-IMG_2562.JPG",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/19/Prof.-Dr.-Jesmine-Banu"
+     },
+     {
+          "id": "003",
+          "name": "Dr. Mohammad Ashrafur Rahman",
+          "degree": "MBBS, FCPS (Anaesthesiology)",
+          "speciality": "Anaesthesiologist",
+          "time": "Unknown",
+          "phone": "+881128704",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1533751672-Dr.%20Mohammad%20Ashrafur%20Rahman.jpg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/15/Dr.-Mohammad-Ashrafur-Rahman"
+     },
+     {
+          "id": "004",
+          "name": "Dr. Sharif Uddin Khan",
+          "degree": "MBBS, MD (Neurology)",
+          "speciality": "Neuro Medicine Specialist",
+          "time": "Sat-Wed: 5pm-7pm",
+          "phone": "+880187331017",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1549375952-Dr.%20Sharif.jpeg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/17/Dr.-Sharif-Uddin-Khan"
+     },
+     {
+          "id": "005",
+          "name": "Dr. Murshida Yeasmin",
+          "degree": "MBBS, DCH, MPH (Maternal and Child Health)",
+          "speciality": "Child Specialist",
+          "time": "Mon-Wed: 4pm-6pm",
+          "phone": "+8801847331019",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1549376140-Dr.%20Mursheda%20Yasmin.jpeg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/7/Dr.-Murshida-Yeasmin"
+     },
+     {
+          "id": "006",
+          "name": "Dr. Mohmmad Sayem",
+          "degree": "MBBS (Dhaka), MRCP (England), CCD (Birdem)",
+          "speciality": "Medicine and Diabetes Specialist",
+          "time": "Unknown",
+          "phone": "10699",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1549549200-Dr.%20Sayem.jpeg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/4/Dr.-Mohmmad-sayem"
+     },
+     {
+          "id": "007",
+          "name": "Sajani Islam",
+          "degree": "MBBS, FCPS (Pediatrics)",
+          "speciality": "Child Specialist",
+          "time": "Sat-Wed: 6pm-8pm",
+          "phone": "Unknown",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1548935018-Sajani%20Islam%20Snigdha.jpg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/35/Sajani-Islam-%28Snigdha%29"
+     },
+     {
+          "id": "008",
+          "name": "Dr. Md. Robed Amin",
+          "degree": "MBBS, FCPS (Medicine)",
+          "speciality": "Medicine Specialist",
+          "time": "Tue-Thu: 6pm-9pm",
+          "phone": "+8801847331012",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1548947697-pic.jpg",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/2/Dr.-Md.-Robed-Amin"
+     },
+     {
+          "id": "009",
+          "name": "Prof. Dr. Ahmedul Kabir",
+          "degree": "MBBS, FCPS, FACP, FRCP (Medicine)",
+          "speciality": "Medicine Specialist",
+          "time": "Sat-Thu: 3pm-11pm",
+          "phone": "+8801847331011",
+          "img": "https://www.amzhospitalbd.com/uploads/doctor/-1531764904-Screenshot%20from%202018-07-16%2023-47-32.png",
+          "profile": "https://www.amzhospitalbd.com/doctor-list/1/Prof.-Dr.-Ahmedul-Kabir"
+     },
+     {
+          "id": "010",
+          "name": "Doctor Mahfuza Shirin",
+          "degree": "MBBS (DU), FCPS (Paed)",
+          "speciality": "Child Specialist",
+          "time": "Unknown",
+          "phone": "Unknown",
+          "img": "https://scontent.fbzl4-1.fna.fbcdn.net/v/t39.30808-6/272047376_3231219997108447_3017873592305419181_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFD0aDb8jqCZCRHhXhcPSGQYvX4hKMODN1i9fiEow4M3dMFTLgZ4jdjLuuUCaY7W9QMyBgtLYLzluin2JShPUO-&_nc_ohc=nEMRmges9FUAX_irt-J&tn=nO63GQ99jwxQFb0D&_nc_ht=scontent.fbzl4-1.fna&oh=00_AT9uvulG0SxC8F6beD3-Hm8KqSrCSkvw2MrB5yp5mThrQA&oe=623D5F51",
+          "profile": "https://www.facebook.com/profile.php?id=100006614354171"
+     }
+]

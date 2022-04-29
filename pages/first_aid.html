@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>First Aid</title>
+     <link rel="manifest" href="../manifest.json">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+     <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+     <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bowlby+One&family=Bungee+Shade&family=Caveat&family=Changa:wght@200&family=Comfortaa:wght@300&family=Courgette&family=Dancing+Script&family=Fredoka+One&family=Fredoka:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Kaushan+Script&family=Lexend+Peta:wght@100&family=Lobster&family=Lobster+Two&family=Montserrat:wght@100&family=Nova+Mono&family=Permanent+Marker&family=Public+Sans:wght@100&family=Righteous&family=Roboto:wght@100&family=Rubik:wght@300&family=Russo+One&family=Saira+Condensed:wght@100&family=Satisfy&family=Smooch+Sans:wght@100&display=swap');
+     body{
+          background-color: cornflowerblue;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+     }
+     html{
+          scroll-behavior: smooth;
+     }
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     #nav{
+          position: fixed;
+          background-color: skyblue;
+          padding: 8px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+     }
+     #nav a{
+          align-items: center;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+     #nav .left-nav{
+          flex: auto;
+          text-align: left;
+     }
+     #nav .right-nav{
+          flex: auto;
+          text-align: right;
+     }
+
+     #top-btn .f-btn{
+          width: 40px;
+          height: 40px;
+          background-color: rgba(87, 199, 243, 0.7);
+          display: flex;
+          font-weight: 800;
+          border-radius: 50%;
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 30px;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          position: fixed;
+          right: 10px;
+          bottom: 15px;
+     }
+
+     #aid{
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 5px;
+          padding-right: 5px;
+
+     }
+     #aid .abc{
+          padding: 2%;
+          background-color: rgba(0, 0, 0, 0.651);
+          border-radius: 10px;
+     }
+     #aid .var-aid{
+          padding: 2%;
+          background-color: rgba(0, 0, 0, 0.651);
+          border-radius: 10px;
+     }
+     #aid .var-aid .btn{
+          text-align: center;
+     }
+     #aid .var-aid .btn button{
+          background-color: royalblue;
+          color: white;
+          border: none;
+          font-family: 'Russo One';
+          font-size: large;
+          border-radius: 50px;
+          height: 40px;
+          width: 40%;
+          transition: ease-out 200ms;
+     }
+     #aid .var-aid .btn button:hover{
+          background-color: rgb(0, 0, 0);
+          width: 60%;
+          height: 45px;
+          color: snow;
+          font-size: larger;
+     }
+</style>
+<body>
+     <!--nav-bar-->
+     <section id="nav">
+          <div class="left-nav">
+               <a href="../index.html"><img src="../img/nav-home.webp" alt="home" height="20px" width="20px"></a>
+          </div>
+          <div class="right-nav">
+               <a href="../pages/about.html"><img src="../img/nav-about.webp" alt="about" height="20px" width="20px"></a>
+
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSe11IoFnkHuFkK_Tp0wQJp3_bpZpCT9phZW_zIcWfS9anusfQ/viewform?usp=sf_link"><img src="../img/nav-feedback.webp" alt="feedback" height="20px" width="20px"></a>
+          </div>
+     </section>
+     <!---->
+
+     <section id="top-btn">
+          <a href="#" class="f-btn">&#x2912</a>
+     </section>
+
+     <!--first aid-->
+     <section id="aid">
+          <div class="abc">
+               <h1 style="font-family: 'Comfortaa'; font-size: 30px; color: white; text-align: center;"><b>Basic First Aid Procedures</b></h1>
+               <p style="font-family:'Dancing Script'; font-size: 23px; color: white; text-align: center;"><i>Getting Someone Through Medical Crises</i></p>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <p><b>First Aid</b> is the emergency care a sick or injured person gets. In some cases, it may be the only care someone needs, while in others, it may help them until paramedics arrive or they are taken to the hospital. The best way to prepare for these events is to get official first aid training, but until you are able to do so, you can learn some basic life-saving steps</p>
+                    <br>
+                    <h3><i>ABC of First Aid</i></h3>
+                    <div style="padding: 1%;">
+                    <p><b>Airway:</b> If someone's not breathing, clear their airway.</p>
+                    <p><b>Breathing:</b> If the airway is clear and they're still not breathing, provide rescue breathing.</p>
+                    <p><b>Circulation:</b> Perform chest compressions to keep blood circulating, as well as rescue breathing. If the person is breathing but unresponsive, check their pulse. If their heart has stopped, provide chest compressions.</p>
+                    </div>
+               </div>
+          </div>
+          <br>
+          <div class="var-aid">
+               <h1 style="font-family: 'Comfortaa'; color: white; font-size: 30px; text-align: center;">Various Emergecy Examples</h3>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Bleeding</h2><br>
+                    <p>The color of the blood and how it's leaving the body can give you a sense of the extent of the injury. Bleeding can be controlled. If severe bleeding is allowed to continue, it can lead to shock and eventually death.</p>
+                    <div style="padding: 1%;">
+                         <p><b>Capillaries:</b> Bleeding from capillaries, which are the smallest blood vessels, looks like a trickle and will usually stop on its own.</p>
+                         <p><b>Veins:</b> A consistent blood flow and blood that's a dark red color is most likely coming from the veins. It can range from mild to severe.</p>
+                         <p><b>Arteries:</b> Arteries are the largest blood vessels and carry a lot of oxygen. If they are injured, bright red blood typically spurts out. Blood can be lost really quickly from this type of bleed.</p>
+                    </div>
+                    <div class="btn">
+                         <button onclick="window.location='../pages/bleeding.html';">What To Do</button>
+                    </div>
+               </div>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Choking</h2><br>
+                    <p>Choking due to a blockage in the throat is a serious situation that can lead to unconsciousness or even death. The <i>Heimlich maneuver</i> is a series of abdominal thrusts that can help dislodge whatever someone may be choking on. It should only be done if someone is truly choking. Before doing anything, simply ask the person if they are choking. If someone is coughing or talking, they aren't choking. If they are unresponsive or exhibit any of the above signs, proceed with the Heimlich.</p>
+                    <div style="padding: 1%;">
+                         <p><b>Signs:</b></p> 
+                         <p>• Gagging, gasping, or wheezing</p>
+                         <p>• Inability to talk or make noise</p>
+                         <p>• Grabbing at the throat</p>
+                         <p>• Waving arms</p>
+                         <p>• Appearing panicked</p>
+                    </div>
+                    
+                    <div class="btn">
+                         <button onclick="window.location='../pages/choking.html';">What To Do</button>
+                    </div>
+               </div>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Burns</h2><br>
+                    <p>The first step to treating a burn is to stop the burning process.9 Chemicals need to be cleaned off. Electricity needs to be turned off. Heat needs to be cooled down with running water. Those with sunburns need to be covered up or go inside.</p>
+                    <div style="padding: 1%;">
+                         <p><b>First-degree burn:</b> This affects only the outer layer of skin and causes redness and swelling. It is considered a minor burn.</p>
+                         <p><b>Second-degree burn:</b> This affects two layers of skin and causes blistering, redness, and swelling. It is considered a major burn if it's more than three inches wide or is on the face, hands, feet, genitals, buttocks, or over a major joint.</p>
+                         <p><b>Third-degree burn:</b> This affects deeper layers of skin and causes white or blackened skin that may be numb. It is always considered a major burn.</p>
+                    </div>
+                    <div class="btn">
+                         <button onclick="window.location='../pages/burns.html';">What To Do</button>
+                    </div>
+               </div>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Fracture or Broken Bone</h2><br>
+                    <p>Any injury to your limbs, hands, and feet needs to be treated as a broken bone until an X-ray can confirm what you're dealing with. While broken bones or fractures do need medical treatment, they don't all require an emergency trip to the hospital.</p>
+                    <div style="padding: 0.5%;">
+                    </div>
+                    <div class="btn">
+                         <button onclick="window.location='../pages/fracture.html';">What To Do</button>
+                    </div>
+               </div>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Nosebleeds</h2><br>
+                    <p>The biggest cause of a nosebleed is digital trauma, better known as picking your nose.</p>
+                    <div style="padding: 1%;">
+                         <p><b>Other causes may include:</b></p>
+                         <p>• Dry or hot air</p>
+                         <p>• High altitudes</p>
+                         <p>• Chemical fumes that irritate the nasal passage</p>
+                         <p>• Colds and allergies</p>
+                         <p>• Blowing your nose hard or often</p>
+                         <p>• Trauma to the nose</p>
+                         <p>• <i>Deviated septum</i>, which is crooked nasal cartilage</p>
+                         <p>• <i>Nasal polyps</i> or <i>tumors</i>, which are non-cancerous or cancerous growths in the nasal passage and sinuses</p>
+                         <p>• Bleeding disorders, including <i>hemophilia</i> and <i>leukemia</i></p>
+                         <p>• High blood pressure</p>
+                         <p>• Pregnancy</p>
+                         <p>• Frequent use of nasal sprays, decongestants, and antihistamines</p>
+                         <p>• NSAIDs</p>
+                         <p>• Blood thinners such as <i>Coumadin (warfarin)</i></p>
+                         <p>• Cocaine and other snorted drugs</p>
+                    </div>
+                    <div class="btn">
+                         <button onclick="window.location='../pages/nosebleeds.html';">What To Do</button>
+                    </div>
+               </div>
+               <br>
+               <div style="background-color:rgb(255, 255, 255); border-radius: 10px; padding: 1%;">
+                    <h2>Bee Stings</h2><br>
+                    <p>Bee stings may be painful for some people, but they can also be deadly for those who are allergic to bee venom. An allergy can develop at any time, so it's important to always watch for signs of an allergic reaction after a bee sting.</p>
+                    <div style="padding: 1%;">
+                         <p><b>These include:</b></p>
+                         <p>• Swelling away from the area that was stung</p>
+                         <p>• Flushing</p>
+                         <p>• Hives, which are raised, large red or skin-colored bumps</p>
+                         <p>• Itching</p>
+                         <p>• Signs of <i>anaphylaxis</i>, a life-threatening allergic reaction that can cause hives, swelling, chest pain, confusion, sweating, blue lips and nails, and difficulty breathing</p>
+                    </div>
+                    <div class="btn">
+                         <button onclick="window.location='../pages/bee_stings.html';">What To Do</button>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!---->
+
+     <section style="background-color: black; color: royalblue; padding: 8px; text-align: center;">
+          <h3>More features are coming soon.</h3>
+     </section>
+
+     <script src="../app.js"></script>
+</body>
+</html>

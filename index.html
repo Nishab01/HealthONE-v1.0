@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HealthONE</title>
+     <link rel="manifest" href="./manifest.json">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+     <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+     <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bowlby+One&family=Bungee+Shade&family=Caveat&family=Changa:wght@200&family=Comfortaa:wght@300&family=Courgette&family=Dancing+Script&family=Fredoka+One&family=Fredoka:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Kaushan+Script&family=Lexend+Peta:wght@100&family=Lobster&family=Lobster+Two&family=Montserrat:wght@100&family=Nova+Mono&family=Permanent+Marker&family=Public+Sans:wght@100&family=Righteous&family=Roboto:wght@100&family=Rubik:wght@300&family=Russo+One&family=Saira+Condensed:wght@100&family=Satisfy&family=Smooch+Sans:wght@100&display=swap');
+     body{
+          background-image: linear-gradient(60deg, skyblue, royalblue, rgb(34, 34, 247), steelblue, skyblue, royalblue, rgb(34, 34, 247), steelblue);
+          background-color: black;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+     }
+     html{
+          scroll-behavior: smooth;
+     }
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     #title{
+          padding: 1.5%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(157, 176, 211, 0.685);
+          
+     }
+     #title a{
+          background-color: #f3ec78;
+          background-image: linear-gradient(85deg, black, purple, rgb(192, 1, 10), rgb(145, 145, 0), rgb(0, 0, 206), black);
+          background-clip:unset;
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -webkit-text-fill-color: transparent; 
+          -moz-text-fill-color: transparent;
+          font-size: 250%;
+          font-family: 'Righteous';
+     }
+
+     #nav{
+          background-color: rgb(72, 180, 223);
+          padding: 8px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+     }
+     #nav a{
+          align-items: center;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+     #nav .right-nav{
+          flex: auto;
+          text-align: right;
+     }
+
+     #main{
+          padding-left: 2px;
+          padding-right: 2px;
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.397);
+     }
+     #main .left-main{
+          flex: 50%;
+          min-width: 50%;
+     }
+     #main .slowFade{
+          display: flex;
+          background: transparent;
+          height: 45vh;
+          overflow: hidden;
+          position:relative;
+     }
+     #main .slowFade .slide img{
+          image-rendering: optimizeSpeed;
+          position: absolute;
+          min-width: 90%;
+          min-height: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          opacity: 0;
+          transform: scale(1.5) rotate(15deg);
+          -webkit-animation: slowFade 32s infinite;
+          animation: slowFade 32s infinite;
+     }
+     #main .slowFade .slide:nth-child(3) img{
+          -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+     }
+     #main .slowFade .slide:nth-child(2) img{
+          -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+     }
+     #main .slowFade .slide:nth-child(1) img{
+          -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+     }
+     @keyframes slowFade{
+          25%{
+               opacity: 1;
+               transform: scale(1) rotate(0);
+          }
+          40%{
+               opacity: 0;
+          }
+     }
+     @-webkit-keyframes slowFade{
+          25%{
+               opacity: 1;
+               transform: scale(1) rotate(0);
+          }
+          40%{
+               opacity: 0;
+          }
+     }
+
+     #main .right-main{
+          flex: 50%;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-left: 10px;
+          padding-right: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 50vh;
+          height: auto;
+     }
+     #main .right-main button{
+          margin: 2%;
+          min-height: 100%;
+          min-width: 100%;
+          width: auto;
+          height: 13vh;
+          font-size: x-large;
+          font-family: 'Rubik';
+          border-radius: 10px;
+          border-style: solid;
+          border-color: black;
+          background-color: royalblue;
+          color: white;
+          font-weight: bold;
+          box-shadow: inset 0 0 0 0 #06f906;
+          transition: ease-out 300ms;
+     }
+     #main .right-main button:hover{
+          box-shadow: inset 750px 0 0 0 aqua;
+          color: black;
+          height: 16vh;
+          font-size: xx-large;
+     }
+
+     #cp{
+          background-color: rgb(0, 0, 0);
+          padding: 15px;
+          color: white;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+</style>
+<body>
+     <!--title-bar-->
+     <section id="title">
+          <img src="./img/logo/logo-original-128x128.webp" alt="ph-ico" height="64px" width="64px" style="padding: 5px;">
+          <a href="./index.html" style="text-align: center;">HealthONE</a>
+     </section>
+     <!---->
+
+     <!--nav-bar-->
+     <section id="nav">
+          <div class="right-nav">
+               <a href="./pages/about.html"><img src="./img/nav-about.webp" alt="about" height="20px" width="20px"></a>
+
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSe11IoFnkHuFkK_Tp0wQJp3_bpZpCT9phZW_zIcWfS9anusfQ/viewform?usp=sf_link"><img src="./img/nav-feedback.webp" alt="feedback" height="20px" width="20px"></a>
+          </div>
+     </section>
+     <!---->
+
+     <!--main-bar-->
+     <section id="main">
+          <div class="left-main slowFade">
+               <div class="slide">
+                    <img src="./img/slide1.webp" alt="slide1">
+               </div>
+               <div class="slide">
+                    <img src="./img/slide2.webp" alt="slide2">
+               </div>
+               <div class="slide">
+                    <img src="./img/slide3.webp" alt="slide3">
+               </div>
+               <div class="slide">
+                    <img src="./img/slide4.webp" alt="slide4">
+               </div>
+          </div>
+          <div class="right-main">
+               <button name="btn_doctor" onclick="window.location='./pages/doctor.html';">Doctor</button>
+               <button name="btn_medicine" onclick="window.location='./pages/medicine.html';">Medicine</button>
+               <button name="btn_first_aid" onclick="window.location='./pages/first_aid.html';">First Aid</button>
+          </div>
+     </section>
+     <!---->
+     <br>
+     
+     <!--apply-->
+     <section id="cp">
+          <p>Copyright HealthONE ©2022</p>
+          <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCKCGmTrtmZGfWTCNLFcSkMNXPFSnbqfQdrZHRxZQTJxKTnfRMsFswSTKmfJMPvFWBfmchpL" style="text-decoration: none; color: skyblue;">healthone.pwa@gmail.com</a>
+     </section>
+     <!---->
+
+     <section style="background-color: black; color: royalblue; padding: 8px; text-align: center;">
+          <h3>More features are coming soon.</h3>
+     </section>
+
+     <script src="./app.js"></script>
+</body>
+</html>

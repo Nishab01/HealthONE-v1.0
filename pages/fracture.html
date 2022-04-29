@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fracture or Broken Bone - What To Do</title>
+    <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+    <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+    <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bowlby+One&family=Bungee+Shade&family=Caveat&family=Changa:wght@200&family=Comfortaa:wght@300&family=Courgette&family=Dancing+Script&family=Fredoka+One&family=Fredoka:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Kaushan+Script&family=Lexend+Peta:wght@100&family=Lobster&family=Lobster+Two&family=Montserrat:wght@100&family=Nova+Mono&family=Permanent+Marker&family=Public+Sans:wght@100&family=Righteous&family=Roboto:wght@100&family=Rubik:wght@300&family=Russo+One&family=Saira+Condensed:wght@100&family=Satisfy&family=Smooch+Sans:wght@100&display=swap');
+    body{
+        background-color: cornflowerblue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    html{
+        scroll-behavior: smooth;
+
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #nav{
+        position: fixed;
+        background-color: skyblue;
+        padding: 8px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #nav a{
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    #nav .left-nav{
+        flex: auto;
+        text-align: left;
+    }
+    #nav .right-nav{
+        flex: auto;
+        text-align: right;
+    }
+
+    #example{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #example .head{
+        padding: 2%;
+        background-color: rgba(0, 0, 0, 0.836);
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #example .to-do{
+        padding: 2%;
+        background-color: rgba(255, 255, 255, 0.836);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <!--nav-bar-->
+    <section id="nav">
+        <div class="left-nav">
+            <a href="../index.html"><img src="../img/nav-home.webp" alt="home" height="20px" width="20px"></a>
+        </div>
+        <div class="right-nav">
+            <a href="../pages/first_aid.html">◄ Back to First Aid</a>
+        </div>
+    </section>
+    <!---->
+
+    <!--bleeding-->
+    <section id="example">
+        <div class="head">
+            <h4>What To Do</h4>
+            <h1>Fracture or Broken Bone</h1>
+        </div>
+        <br>
+        <div class="to-do">
+            <p>Take the patient to medical centre if:</p> 
+            <div style="padding-left: 1%;">
+                <p>• The person is bleeding profusely, is unresponsive, not breathing, or has numerous injuries.</p>
+                <p>• You suspect a fracture or other serious injury to the spinal column, head, hip, pelvis, or thigh. In this case, the person should not be moved except by trained medical personnel.</p>
+                <p>• A broken bone protrudes from the skin, known as an open or compound fracture.</p>
+                <p>• The area below an injured joint feels cold and clammy or becomes bluish.</p>
+                <p>• You can't immobilize the injury well enough to transport the person.</p>
+           </div><br>
+           <p>If those don't apply, use first aid and then go to an urgent care or contact your healthcare provider for guidance. Also follow these:</p>
+           <div style="padding-left: 1%;">
+                <p>• Don't try to straighten the bone.</p>
+                <p>• For a limb, use a splint and padding to keep it still and elevate it.</p>
+                <p>• Put a cold pack on the injury, with a barrier between it and the skin to prevent tissue damage. If ice is all that's available, put it in a plastic bag and wrap it in a shirt or towel.</p>
+                <p>• Give anti-inflammatory drugs like <i>Advil (ibuprofen)</i> or <i>Aleve (naproxen)</i> for pain.</p>
+            </div><br>
+            <p>Research has shown that non-steroidal anti-inflammatory drugs (NSAIDs) like <i>Advil (ibuprofen)</i> and <i>Aleve (naproxen sodium)</i> can slow bone healing. However, short-term NSAID use appears to have little or no effect on healing.</p>
+        </div>
+    </section>
+    <!---->
+
+    <section style="background-color: black; color: royalblue; padding: 8px; text-align: center;">
+          <h3>More features are coming soon.</h3>
+    </section>
+
+    <script src="../app.js"></script>
+</body>
+</html>

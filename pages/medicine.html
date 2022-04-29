@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Medicine</title>
+     <link rel="manifest" href="../manifest.json">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-144x144.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-192x192.png">
+     <link rel="apple-touch-icon" href="./img/logo/logo-original-512x512.png">
+     <meta name="apple-mobile-web-app-status-bar" content="#87CEEB">
+     <meta name="theme-color" content="#87CEEB">
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Abel&family=Acme&family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bowlby+One&family=Bungee+Shade&family=Caveat&family=Changa:wght@200&family=Comfortaa:wght@300&family=Courgette&family=Dancing+Script&family=Fredoka+One&family=Fredoka:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Kaushan+Script&family=Lexend+Peta:wght@100&family=Lobster&family=Lobster+Two&family=Montserrat:wght@100&family=Nova+Mono&family=Permanent+Marker&family=Public+Sans:wght@100&family=Righteous&family=Roboto:wght@100&family=Rubik:wght@300&family=Russo+One&family=Saira+Condensed:wght@100&family=Satisfy&family=Smooch+Sans:wght@100&display=swap');
+     body{
+          background-color: cornflowerblue;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+     }
+     html{
+          scroll-behavior: smooth;
+     }
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     #nav{
+          position: fixed;
+          background-color: skyblue;
+          padding: 8px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+     }
+     #nav a{
+          align-items: center;
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+     #nav .left-nav{
+          flex: auto;
+          text-align: left;
+     }
+     #nav .right-nav{
+          flex: auto;
+          text-align: right;
+     }
+
+     #top-btn .f-btn{
+          width: 40px;
+          height: 40px;
+          background-color: rgba(87, 199, 243, 0.7);
+          display: flex;
+          font-weight: 800;
+          border-radius: 50%;
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 30px;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          position: fixed;
+          right: 10px;
+          bottom: 15px;
+     }
+
+     #med-list{
+          padding-top: 50px;
+          padding-bottom: 20px;
+     }
+     #med-list .med{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+     #med-list .med .list{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          padding: 0.5%;
+     }
+     #med-list .med .list button{
+          height: 80%;
+          width: 90%;
+          border-radius: 5px;
+          background-color: cornflowerblue;
+          color: black;
+          font-family: 'Rubik';
+          font-size: medium;
+          text-align: left;
+          border: none;
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+          padding: 1%;
+          transition: ease-out 400ms;
+     }
+     #med-list .med .list button:hover{
+          background-color: aqua;
+          color: black;
+          width: 92%;
+     }
+     #med-list button .pic img{
+          border-radius: 5px;
+          border: none;
+     }
+     #med-list button .info{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding-left: 2%;
+          padding-right: 0.1%;
+     }
+     #med-list .med .list .m_name{
+          font-weight: bolder;
+          font-size: large;
+     } 
+     #med-list .med .list .m_info1{
+          font-style: italic;
+          font-size: small;
+     }
+     #med-list .med .list .m_info2{
+          font-style: italic;
+          font-size: small;
+     }
+     #med-list .med .list .m_indication{
+          font-size: medium;
+          font-weight: bold;
+     }
+     #med-list .med .list .m_dosage{
+          font-size: normal;
+     }
+
+     #apply{
+          background-color: rgb(0, 0, 0);
+          color: white;
+          padding: 10px;
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+</style>
+<body>
+     <!--nav-bar-->
+     <section id="nav">
+          <div class="left-nav">
+               <a href="../index.html"><img src="../img/nav-home.webp" alt="home" height="20px" width="20px"></a>
+          </div>
+          <div class="right-nav">
+               <a href="../pages/about.html"><img src="../img/nav-about.webp" alt="about" height="20px" width="20px"></a>
+
+               <a href="https://docs.google.com/forms/d/e/1FAIpQLSe11IoFnkHuFkK_Tp0wQJp3_bpZpCT9phZW_zIcWfS9anusfQ/viewform?usp=sf_link"><img src="../img/nav-feedback.webp" alt="feedback" height="20px" width="20px"></a>
+          </div>
+     </section>
+     <!---->
+
+     <!--medicine-->
+     <section id="med-list"></section>
+     <script src="../js/data_medicine.js"></script>
+     <!---->
+     <section id="top-btn">
+          <a href="#" class="f-btn">&#x2912</a>
+     </section>
+     
+     <section id="apply">
+          <p>All rights of the doctors reserved by <a href="http://www.squarepharma.com.bd/" style="text-decoration: none; color: white; font-weight: bold;">Square Pharmaceuticals Ltd.</a></p>
+     </section>
+     <!---->
+
+     <section style="background-color: black; color: royalblue; padding: 8px; text-align: center;">
+          <h3>More features are coming soon.</h3>
+     </section>
+
+     <script src="../app.js"></script>
+</body>
+</html>
